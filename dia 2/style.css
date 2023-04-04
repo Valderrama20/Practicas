@@ -24,6 +24,8 @@ body {
     border: 4px solid rgb(220, 220, 220);
     border-radius: 50%;
     background-color: white;
+    transition: 0.5s;
+    z-index: 1;
 }
 #container::before {
     content: '';
@@ -35,9 +37,7 @@ body {
     background-color: rgb(220, 220, 220);
 }
 
-.progress {
 
-}
 
 .active {
     border: 4px solid #3498db
@@ -51,3 +51,24 @@ body {
      border-radius: 10px;
      cursor: pointer;
 }
+
+/* Estilo predeterminado de la barra de progreso */
+progress {
+    position: absolute;
+    top: 26px;
+    height: 5px;
+    width: 130%;
+    background-color: #ddd;
+    z-index: 0;
+  }
+  
+  /* Estilo de la parte completa de la barra de progreso */
+  progress::-webkit-progress-value {
+    background-color: #3498db;
+    transition: 0.5s;
+  }
+  
+  /* Estilo de la parte incompleta de la barra de progreso */
+  progress::-webkit-progress-bar {
+    background-color: #ddd;
+  }
