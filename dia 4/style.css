@@ -1,0 +1,43 @@
+
+body {
+    background-image: linear-gradient(90deg, #7d5fff, #7158e2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 300px;
+    border-radius: 10px;
+     background-color:white;
+     transition: 1s;
+  }
+
+  .input {
+    border: none;
+    height: 20px;
+    padding: 15px;
+    background-color: transparent;
+    transition: 1s;
+  }
+
+.btn {
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.active {
+    width: 70px;
+}
+.none {
+    display: none;
+}
+
+
