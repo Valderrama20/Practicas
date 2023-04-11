@@ -9,6 +9,7 @@ body {
 
 .div {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     height: 55px;
@@ -20,6 +21,7 @@ body {
 
   .input {
     border: none;
+    outline: none;
     height: 20px;
     padding: 15px;
     background-color: transparent;
@@ -27,10 +29,12 @@ body {
   }
 
 .btn {
+    position: absolute;
     height: 50px;
+    right: 5px;
     cursor: pointer;
     border: none;
-    background-color: transparent;
+    
 }
 
 .active {
