@@ -1,0 +1,29 @@
+
+body {
+   margin: 0; 
+    
+}
+
+
+.div {
+    
+    background-image: url("https://images4.alphacoders.com/936/936378.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+   height: 100vh;
+   width: 100%;
+   ;
+    
+  }
+.loading {
+   color: white;
+    font-size: 80px ;
+    transition: 0.5s;
+}
+
+.div2 {
+  position: absolute;
+  right: 45%;
+  top: 30%;  
+}
