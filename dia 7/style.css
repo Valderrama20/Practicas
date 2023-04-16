@@ -27,6 +27,19 @@ body {
     font-weight: bold;
     width: 15rem;
     padding: 25px;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+#btn_left:hover {
+    border: 3px solid rgb(69, 69, 187);
+    background-color: rgb(69, 69, 187);
+
+}
+
+#btn_right:hover {
+    border: 3px solid green;
+    background-color: green;
 
 }
 
@@ -38,7 +51,7 @@ body {
     position: relative;
     height: 100vh;
     width: 50%;
-    transition: 0.5s;
+    transition: 0.7s;
     display: flex;
     flex-direction: column;
     align-items: center ;
@@ -62,7 +75,7 @@ body {
     position: relative;
     height: 100vh;
     width: 50%;
-    transition: 0.5s;
+    transition: 0.7s;
     display: flex;
     flex-direction: column;
     align-items: center ;
@@ -79,10 +92,27 @@ body {
 }
 
 .hover-right .right {
-    width: 75%
+    width: 75%;
+    z-index: 10;
+    
 }
 
 .hover-right .left {
-    width: 25%
+    width: 25%;
+    z-index: 0;
+
 }
+
+
+.hover-left .left {
+    width: 75%;
+    z-index: 10;
+
+}
+.hover-left .right {
+    width: 25%;
+    z-index: 0;
+
+}
+
 
