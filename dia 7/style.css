@@ -1,0 +1,88 @@
+
+body {
+    margin: 0;
+}
+.content {
+    display: flex;
+    
+}
+
+.content h2 {
+    font-size: 4rem;
+    color: #fff;
+    left: 50%;
+    top: 20%;
+    position: absolute;
+    white-space: nowrap;
+   transform: translate(-50%);
+
+}
+
+.content button {
+    position: absolute;
+    border: 3px solid white;
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    width: 15rem;
+    padding: 25px;
+
+}
+
+.left {
+    background-image: url("./ps.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 50%;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+
+}
+
+.left::before {
+    content: "";
+    position: absolute;
+    height: 100vh;
+    width: 100%;    
+    background-color: rgba(87, 84, 236, 0.7);
+}
+
+.right {
+    background-image: url("./xbox.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 50%;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+}
+
+
+.right:before {
+    content: "";
+    position: absolute;
+    height: 100vh;
+    width: 100%;    
+    background-color: rgba(43, 43, 43, 0.8);
+}
+
+.hover-right .right {
+    width: 75%
+}
+
+.hover-right .left {
+    width: 25%
+}
+
