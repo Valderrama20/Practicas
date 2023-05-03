@@ -1,0 +1,46 @@
+body {
+    margin: 0 0;
+}
+#container {
+   background-color: #686de0;;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  height: 100vh;
+}
+
+#div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    height: auto;
+    width: 600px;
+}
+
+#title {
+  color: rgb(128, 128, 128);
+  font-size: 25px;
+  line-height: 50px;
+}
+
+#bromas {
+    max-width: 550px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+  word-wrap: break-word;
+
+}
+#btn {
+  color: white;
+  background-color: #9f68e0;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 14px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 40px;
+}
