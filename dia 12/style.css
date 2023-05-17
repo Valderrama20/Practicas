@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.div {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px 20px;
+  width: 500px;
+  position: relative;
+  
+}
+
+.div p {
+    margin-top: 30px;
+    position: absolute;
+}
+
+.div:hover {
+    height: 130px;
+}
+
+
+#btn {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+#btn2 {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+.active {
+    height: 130px;
+}
+
