@@ -1,0 +1,34 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: linear-gradient( to bottom, #eafbff 0%, #eafbff 50%, #5290f9 50%, #5290f9 100% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Muli', sans-serif
+}
+
+.nav {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.ul li {
+    list-style: none;;
+    color: #292929;
+    font-weight: 500;
+    margin: 0 10px;
+}
